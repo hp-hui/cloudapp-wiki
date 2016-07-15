@@ -2,6 +2,7 @@
 
 This is the summary of the book.
 
+* [Markdown 写法示例](sample.md)
 * Hydra Server端
     * Client API
         * [Hello](server/client_api/hello.md)
@@ -22,4 +23,3 @@ This is the summary of the book.
         * [以不同的环境运行](server/conf/env.md)
     * 优化
         * [数据库](server/opt/db.md)
-* [Markdown 写法示例](sample.md)
