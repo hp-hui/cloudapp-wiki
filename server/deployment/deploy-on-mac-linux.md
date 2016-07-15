@@ -1,9 +1,3 @@
----
-layout: post
-title:  "Deploy on Mac / Linux"
-date:   2016-02-29 14:26:34 +0800
-categories: Deployment
----
 ## Objectives
 * Deploy a EOS server package on Linux / Mac.
 
