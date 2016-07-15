@@ -1,1 +1,1 @@
-Hydra Framework 官方文档
+CloudApp 官方文档 - 在线版本: https://successinfocn.gitbooks.io/hydra-book/content/
