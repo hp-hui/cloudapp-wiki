@@ -3,7 +3,7 @@
 This is the summary of the book.
 
 * [Markdown 写法示例](sample.md)
-* Hydra Server端
+* CloudApp Server端
     * Client API
         * [Hello](server/client_api/hello.md)
         * [Login](server/client_api/login.md)
@@ -23,3 +23,4 @@ This is the summary of the book.
         * [以不同的环境运行](server/conf/env.md)
     * 优化
         * [数据库](server/opt/db.md)
+* [CloudApp Client](client/index.md)
