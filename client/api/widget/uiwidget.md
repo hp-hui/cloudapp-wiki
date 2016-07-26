@@ -1,4 +1,5 @@
 ## uiwidget
+This the abstract class of all widget.
 
 ### Properties
 | Property      | Type          | Description   |
