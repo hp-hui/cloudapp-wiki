@@ -15,25 +15,25 @@
 | ontouchdown | function | |
 | ontouchmove | function | |
 | backgroundAlpha | number | |
-| backgroundColor | color:[ColorType] | |
-| backgroundGradient | gradient:[GradientType] | |
-| backgroundImage | image:[ImageType] | |
-| backgroundScale | scale:[ScaleType] | |
-| borderColor | color:[ColorType] | |
+| backgroundColor | color:[ColorType](../common/colortype.md) | |
+| backgroundGradient | gradient:[GradientType](../common/gradienttype.md) | |
+| backgroundImage | image:[ImageType](../common/imagetype.md) | |
+| backgroundScale | scale:[ScaleType](../common/scaletype.md) | |
+| borderColor | color:[ColorType](../common/colortype.md) | |
 | borderAlpha | number | |
 | borderWidth | number | |
 | cornerRadius | number | |
-| width | size:[SizeType] | |
-| height | size:[SizeType] | |
-| marginLeft | size:[SizeType] | |
-| marginRight | size:[SizeType] | |
-| marginTop | size:[SizeType] | |
-| marginBottom | size:[SizeType] | |
+| width | size:[SizeType](../common/sizetype.md) | |
+| height | size:[SizeType](../common/sizetype.md) | |
+| marginLeft | size:[SizeType](../common/sizetype.md) | |
+| marginRight | size:[SizeType](../common/sizetype.md) | |
+| marginTop | size:[SizeType](../common/sizetype.md) | |
+| marginBottom | size:[SizeType](../common/sizetype.md) | |
 | margin | string | top,right,bottom,left |
-| paddingLeft | size:[SizeType] | |
-| paddingRight | size:[SizeType] | |
-| paddingTop | size:[SizeType] | |
-| paddingBottom | size:[SizeType] | |
+| paddingLeft | size:[SizeType](../common/sizetype.md) | |
+| paddingRight | size:[SizeType](../common/sizetype.md) | |
+| paddingTop | size:[SizeType](../common/sizetype.md) | |
+| paddingBottom | size:[SizeType](../common/sizetype.md) | |
 | padding | string | top,right,bottom,left |
 
 ### APIs
@@ -46,6 +46,6 @@
 | getSnapshot | void | img:[LuaImage] | take snapshot of this widget |
 | getContentSnapshot | void | img:[LuaImage] | take content snapshot of this widget |
 | getRect | void | x:number,y:number,width:number,height:number | 	get the rect of this widget |
-| getMarginOnView | widget:[uiwidget] | top:number,right:number,bottom:number,left:number | |
-| getRectOnView | widget:[uiwidget] | x:number,y:number,width:number,height:number | |
+| getMarginOnView | widget:[uiwidget](uiwidget.md) | top:number,right:number,bottom:number,left:number | |
+| getRectOnView | widget:[uiwidget](uiwidget.md) | x:number,y:number,width:number,height:number | |
 | setStyle | styles:table | void | merge style table |
