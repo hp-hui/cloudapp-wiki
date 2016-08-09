@@ -1,4 +1,5 @@
 ## hbox extends [view](view.md)
+horizontal layout container.
 
 ### Properties
 | Property      | Type          | Description   |
