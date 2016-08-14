@@ -1,25 +1,21 @@
----
-layout: post
-title:  "Pack a deployment package"
-date:   2016-02-29 14:26:34 +0800
-categories: Deployment
----
-## Objectives
-* To pack a deployment package from the repository.
 
-## Prerequisites
+## 获取服务器端部署包
+### 目标
+* 从源代码中构建服务器端部署包
+
+### 前置条件
 * JDK 7.0 +
 * Apache Ant
 
-## Action
+### 操作
 
-Enter the root directory of the repository of Hydra server, then use 'ant' to pack a package.
+进入到源代码根目录下，执行以下命令以得到一个名为'eos.zip'的文件，服务器端部署包。
 
 ```shell
 ant pkg.deploy
 ```
 
-Then you get a ziped package that is named 'eos.zip' under the root directory of the repository.
+
 
 
 

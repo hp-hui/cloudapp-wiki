@@ -3,24 +3,20 @@
 This is the summary of the book.
 
 * [Markdown 写法示例](sample.md)
-* CloudApp Server端
-    * Client API
-        * [Hello](server/client_api/hello.md)
-        * [Login](server/client_api/login.md)
-        * [Refresh](server/client_api/refresh.md)
-        * [Relogin](server/client_api/relogin.md)
-        * [Logout](server/client_api/logout.md)
-        * [Update](server/client_api/update.md)
-        * [Client Property](server/client_api/client-property.md)
-        * [List Mobility Apps](server/client_api/list-mobility-apps.md)
-    * 部署
-        * [制作部署包](server/deployment/pack-a-deployment-package.md)
-        * [部署至服务器](server/deployment/deploy-on-mac-linux.md)
-    * 配置
-        * [实例名](server/conf/server-name.md)
-        * [数据库](server/conf/database.md)
-        * [Client API](server/conf/client-api.md)
-        * [以不同的环境运行](server/conf/env.md)
-    * 优化
-        * [数据库](server/opt/db.md)
+* CloudApp Server架设
+	* [获取服务器端部署包](server/deployment/pack-a-deployment-package.md)
+	* [部署服务器](server/deployment/deploy-on-mac-linux.md)
+* CloudApp Server后台操作说明
+	* 客户端管理
+	* 应用管理
+	* 用户和角色管理
+	* 设备管理
+	* 动态模块管理
+	* 报表查询
+	* 管理工具
+	* 开发工具
+* App模块项目的创建、打包、分发流程
+	* 创建App
+	* 打包
+	* 安装
 * [CloudApp Client](client/index.md)

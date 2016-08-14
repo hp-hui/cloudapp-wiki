@@ -1,18 +1,21 @@
-## Objectives
-* Deploy a EOS server package on Linux / Mac.
+## 部署服务器
 
-## Prerequisites
-* Linux / Mac / Windows
+### 目标
+* 在Linux或MacOS上部署Cloud App服务器端.
+
+### 前置条件
+* Linux / Mac
 * JDK 7.0
 * Playframework 1.3.x 
+* **play**和**java**已经配置进了PATH
 
-Assume that the commands of **play** and **java** is in the PATH.
+### 操作
 
-## Action
+#### 初始化
 
-### Initialization
+假定将服务器端部署在/var/www目录下。
 
-Let's assume that the deployment package is located at /var/www.
+**如无额外说明，本文中的相对路劲都是相对于/var/www目录的。**
 
 ```shell
 mkdir /var/www
@@ -33,18 +36,18 @@ play deps deploy/server
 rm deploy/server/lib/guice-4.0.jar
 ```
 
-### Configaration
+#### 配置
 
-By default the EOS server uses:
+默认情况下服务器端使用:
 
-* a file based H2 database which located in data/db
-* a local file system to store mobility app files
+* 基于本地文件存储的H2数据库。
+* 使用本地文件存储安装的app。
 
-Now you should modify the configuration file 'conf/custom.conf' to fit your needs.
+可以根据需要修改'conf/custom.conf'以适应需求.
 
-### Running
+#### 运行
 
-Edit the script 'eos-server', to modify the three properties:
+编辑脚本'eos-server', to modify the three properties:
 
 ```shell
 # path to the executable file of Play Framework
@@ -57,7 +60,7 @@ RUNDIR=/var/www/eos
 PIDFILE=/var/www/eos/deploy/server/server.pid
 ```
 
-To run or stop the server:
+启动或停止:
 
 ```shell
 # using the script file 'eos-server'
@@ -73,7 +76,7 @@ play start deploy/server
 play start deploy/server
 ```
 
-To run the server with a specific ID. Let's say 'dev' in this case:
+以特定环境名运行（比如这里使用dev）:
 ```shell
 play start deploy/server --%dev
 ```
