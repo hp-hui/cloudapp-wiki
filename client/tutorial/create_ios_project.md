@@ -1,5 +1,4 @@
-### 客户端项目创建及配置
-#### 创建第一个iOS CloudApp
+### 创建第一个iOS项目
 ##### 1. 创建Xcode新项目
 选择Single View Application模板创建新项目，如图
 ![image](screenshots/create_project_01.png)
