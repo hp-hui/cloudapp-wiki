@@ -4,7 +4,7 @@
 | Property      | Type          | Description   |
 | ------------- | ------------- | ------------- |
 | layout | string | absolute / none |
-| overflow | string | visible | hidden | scroll |
+| overflow | string | visible / hidden / scroll |
 
 ### APIs
 | Property      | Parameters    | Return Type   | Description   |
