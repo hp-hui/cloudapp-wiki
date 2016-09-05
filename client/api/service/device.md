@@ -3,8 +3,8 @@
 ### APIs
 | Property      | Parameters    | Return Type   | Description   |
 | ------------- | ------------- | ------------- | ------------- |
-| getDiskInfos | void | [DiskInfoList](#DiskInfo) | get disk infos |
-| sms | [SMSTable](#SMSTable) | boolean | |
+| getDiskInfos | void | [DiskInfoList](#diskinfo) | get disk infos |
+| sms | [SMSTable](#smstable) | boolean | |
 | auth | msg:string, callback:LuaFunction | boolean | ios only, finger auth. |
 | call | phonenumber:string | boolean | |
 | getPasteboardText | void | string | |
