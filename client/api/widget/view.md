@@ -1,28 +1,28 @@
 ## view
 
-### Properties
-| Property      | Type          | Description   |
+### 属性
+| 属性      | 类型          | 描述   |
 | ------------- | ------------- | ------------- |
-| layout | string | absolute / none |
-| overflow | string | visible / hidden / scroll |
+| layout | string |view的布局 absolute / none |
+| overflow | string | visible / view超出部分是否隐藏 hidden / scroll |
 
-### APIs
-| Property      | Parameters    | Return Type   | Description   |
+### 接口
+| 属性      | 参数    | 返回  | 描述   |
 | ------------- | ------------- | ------------- | ------------- |
-| reLayoutChildren | void | void | relayout all child items |
-| addChild | child:object, position:number(optional) | child:[UIWidget](uiwidget.md) | add a child model or widget inside this view |
+| reLayoutChildren | void | void | 重汇view所有子元素的界面 |
+| addChild | child:object, position:number(optional) | child:[UIWidget](uiwidget.md) | 添加一个widget到view里面 |
 | indexChild | child:object | position:number | find position of a child, child could be id/widget |
-| removeChild | child:object | void | remove a child, child could be id/widget |
-| removeChildAt | position:number | void | remove a child at position |
-| removeAllChildren | void | void | remove all children |
-| listChildren | void | children:table | get the list of all children |
+| removeChild | child:object | void | 根据widget或者id移除子元素 |
+| removeChildAt | position:number | void | 根据位置移除子元素 |
+| removeAllChildren | void | void | 移除view里面所有子元素 |
+| listChildren | void | children:table | 获取view里面所有子元素 |
 
-### xml schema
+### xml 模板
 ```xml
 <view layout="absolute|flow-x|flow-y" overflow="visible|hidden|scroll" >
 ```
 
-### xml sample
+### xml 样例
 ```xml
 <view width="50" backgroundColor="red">
   <button xxx>
