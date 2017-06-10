@@ -1,6 +1,6 @@
 ## Client
 
-* [API](/api/index.md)
+* [API](/client/tutorial/index.md)
 * [Best Practice](bestpractice/index.md)
 * [Tutorial](tutorial/index.md)
 
