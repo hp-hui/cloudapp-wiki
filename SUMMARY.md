@@ -20,3 +20,6 @@ This is the summary of the book.
 	* 打包
 	* 安装
 * [CloudApp Client](client/index.md)
+	* [API](client/api/index.md)
+	* [Best Practice](client/bestpractice/index.md)
+	* [Tutorial](client/tutorial/index.md)
